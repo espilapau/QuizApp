@@ -1,0 +1,14 @@
+*{box-sizing:border-box;font-family:Arial} body{margin:0;background:#0f1225;color:white;display:flex;justify-content:center;min-height:100vh}
+.card{background:#1c1f3a;padding:20px;border-radius:12px;margin:20px 0;max-width:600px;width:100%}
+.options{display:grid;gap:10px;margin-top:15px}
+.option{padding:12px;border-radius:8px;border:1px solid #444;background:#252845;color:white;cursor:pointer;transition:.2s}
+.option:hover{background:#32365e;transform:scale(1.02)}
+.option.selected{background:#7c3aed;border-color:#a78bfa}
+.btn-primary{background:linear-gradient(90deg,#7c3aed,#2563eb);border:none;color:white;padding:12px 24px;border-radius:8px;cursor:pointer}
+.btn-secondary{background:#333;padding:12px 24px;border-radius:8px;border:1px solid #555;color:white;cursor:pointer}
+.btn-primary:disabled{opacity:.5}
+.progress{height:8px;background:#2a2d4d;border-radius:4px;overflow:hidden;margin:10px 0}
+.progress div{height:100%;background:#7c3aed;transition:.3s}
+.home,.quiz-page,.result-page{max-width:600px;padding:30px;text-align:center}
+.btn-group{display:flex;gap:10px;justify-content:center;margin-top:20px}
+span{color:#a78bfa}
